@@ -14,7 +14,7 @@ a {
     opacity: .7; }
 
 body {
-  font-family: "PingFang SC"; }
+  font-family: -apple-system, system-ui, "Helvetica Neue", "PingFang SC", "Microsoft YaHei", "Source Han Sans SC", "Noto Sans CJK SC", "WenQuanYi Micro Hei", sans-serif; }
 
 @font-face {
   font-family: 'BebasNeue';
@@ -219,8 +219,9 @@ body {
   .article > .content {
     padding-bottom: 64px; }
     .article > .content h1, .article > .content h2, .article > .content h3, .article > .content h4, .article > .content h5 {
-      font-size: 23px;
+      font-size: 24px;
       font-weight: 600;
+      line-height: 40px;
       margin-bottom: 15px; }
     .article > .content p {
       font-size: 16px;
